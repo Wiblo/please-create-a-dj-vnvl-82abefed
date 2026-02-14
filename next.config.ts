@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  transpilePackages: ["motion"],
   experimental: {
     optimizePackageImports: ["lucide-react"],
   },
